@@ -9,7 +9,7 @@ from pytest_bdd import (
 )
 
 
-@scenario('../features/duck_duck_go.feature', 'Basic DuckDuckGo Search')
+@scenario('../features/rds_failover.feature', 'Basic DuckDuckGo Search')
 def test_basic_duckduckgo_search():
     """Basic DuckDuckGo Search."""
 
