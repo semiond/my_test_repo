@@ -18,7 +18,7 @@ def test_basic_duckduckgo_search():
 def the_duckduckgo_home_page_is_displayed():
     """the DuckDuckGo home page is displayed."""
     print("the DuckDuckGo home page is displayed: ")
-    pass
+    raise NotImplementedError("To be implemented")
 
 
 @when('the user searches for "panda"')
